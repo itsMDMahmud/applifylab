@@ -50,7 +50,8 @@ function App() {
 
           <div className='flex'>
             <img src="./../public/heroImage.png" className='h-[790px] absolute right-[226px]' alt="" />
-            <img src="./../public/Card.png" className='h-[230px] absolute right-[135px] bottom-0' alt="" />
+            <img src="./../public/Card.png" className='h-[230px] absolute right-[135px] top-[450px]' alt="" />
+            {/* <img src="./../public/Card.png" className='h-[230px] absolute right-[135px] bottom-0' alt="" /> */}
             
           </div>
 
@@ -186,7 +187,7 @@ function App() {
         {/* footer  */}
 
         <footer className=' mt-[70px] bg-[#12141D] h-[440px] pt-[75px] px-[150px]'>
-         <div className='flex'>
+         <div className='flex justify-center'>
            {/* getpay  */}
            <div>
             <img src="./../public/footerlogo.png" alt="" />
@@ -249,7 +250,7 @@ function App() {
          </div>
 
          <div className='mt-[20px] border-t-[1px] border-[#ECEBEB1F]'>
-            <p className='text-[#A3A4A7] text-[14px] font-medium text-center mt-[28px]'>Copyright <span className='text-white'>GetPay</span> 2022 All Right Reserved</p>
+            <p className='text-[#A3A4A7] text-[14px] font-medium text-center mt-[28px]'>Copyright <span className='text-white'>GetPay</span> 2024 All Right Reserved</p>
          </div>
 
         </footer>
